@@ -13,3 +13,14 @@ Output: (a, 4), (b, 3), (c, 2), (a, 1)
 Input: nums = [2,7,11,15], target = 9
 Output: [0,1]
 Explanation: Because nums[0] + nums[1] == 9, we return [0, 1].
+
+***CountNumberOfPairsWithDifferenceK***
+Given an integer array nums and an integer k, return the number of pairs (i, j) where i < j such that |nums[i] - nums[j]| == k
+
+Input: nums = [1,2,2,1], k = 1
+Output: 4
+Explanation: The pairs with an absolute difference of 1 are:
+- [1,2,2,1]
+- [1,2,2,1]
+- [1,2,2,1]
+- [1,2,2,1]
